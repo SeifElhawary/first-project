@@ -176,6 +176,7 @@ header img{
         position: static;
          padding:5px;
          left:0;
+         right:300px;
      }
     .navbar{
         display: none;
