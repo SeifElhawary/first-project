@@ -190,10 +190,10 @@ header img{
       #home .content{
         flex-direction: column-reverse;
         gap: 8px;
-        padding: 100px 1rem;
+        padding: 20px 1rem;
       }
       #home video{
-        width: 230px;
+        width: 350px;
       }
       .text h1{
         font-size: 1rem;
