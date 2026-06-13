@@ -189,7 +189,7 @@ header img{
      }
      #home{
         padding: 0 1rem;
-        height: auto !important;
+        height: 70vh;
          max-height: 100vh;
         overflow: hidden;
      }
