@@ -195,7 +195,7 @@ header img{
      }
       #home .content{
         flex-direction: column-reverse;
-        gap: 8px;
+        gap: 15px;
         padding: 0 1rem;
         margin:auto;
         height: 100%;
@@ -204,9 +204,11 @@ header img{
         width: 350px;
       }
       .text h1{
+          width:100%;
         font-size: 1rem;
       }
        .text p{
+           width:100%;
         font-size: 0.7rem;
        }
        .text a{
