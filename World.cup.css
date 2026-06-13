@@ -170,6 +170,7 @@ header img{
 @media(max-width:950px){
     html,body{
         scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
     }
      header{
         position: static;
@@ -212,7 +213,9 @@ header img{
         font-size: 10px;
        }
        #standings{
-        overflow: scroll;
+        min-height: 100vh; 
+        height: auto;
+        overflow: hidden;
         padding: 3rem 2rem;
        }
        .hh h1{
