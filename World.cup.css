@@ -133,7 +133,7 @@ header img{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    gap: 10px;
+    gap: 5px;
 }
 .cards div{
     background-color: #00000049;
