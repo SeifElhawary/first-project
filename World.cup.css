@@ -168,6 +168,9 @@ header img{
 }
 /* end section 2 */
 @media(max-width:950px){
+    html,body{
+        scroll-behavior: smooth;
+    }
      header{
         position: static;
      }
@@ -185,7 +188,9 @@ header img{
      }
      #home{
         padding: 0 1rem;
-        overflow: scroll;
+        min-height: 100vh; 
+        height: auto;
+        overflow: hidden;
      }
       #home .content{
         flex-direction: column-reverse;
