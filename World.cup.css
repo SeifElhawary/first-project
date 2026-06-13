@@ -174,7 +174,7 @@ header img{
     }
      header{
         position: static;
-         padding:20px;
+         padding:10px;
      }
     .navbar{
         display: none;
@@ -185,9 +185,7 @@ header img{
     .logo h1 , span{
         font-size: 15px;
     }
-     header{
-        padding: 0.5rem;
-     }
+  
      #home{
         padding: 0 4rem;
         height: auto !important;
