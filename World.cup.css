@@ -189,8 +189,8 @@ header img{
      }
      #home{
         padding: 0 1rem;
-        min-height: 100vh; 
-        height: auto;
+        height: auto !important;
+         max-height: 100vh;
         overflow: hidden;
      }
       #home .content{
