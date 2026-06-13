@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+      font-family: "Pliant", sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    
+    background-color: black;
+}
+#home{
+height: 100vh;
+ padding: 0 2rem;
+ overflow: hidden;
+}
+  /* header start */
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    padding: 1rem;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 999;
+  }
+  /* header end */
+
+
+/* بدايه اللوجو وعنوان اللوجو  */
+header img{
+    width: 50px;
+}
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+.logo  span{
+    margin-left: 30px;
+    color: rgb(248, 251, 251);
+      font-family: "Black Ops One", system-ui;
+
+}
+.logo h1{
+    color: gold;
+      font-family: "Black Ops One", system-ui;
+
+}
+/* نهايه اللوجو وعنوان اللوجو */
+
+/* navbar start */
+.navbar ul li{
+    list-style: none;
+    transition: 0.5s;
+}
+.navbar ul li a{
+    color: bisque;
+}
+.navbar ul li a i{
+    color: white;
+    margin-right: 5px;
+}
+.navbar ul{
+    display: flex;
+    gap: 6rem;
+   
+}
+
+/* navbar end */
+
+/* content start */
+ #home .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
+    padding: 459px 1rem;
+ }
+ #home video{
+    max-width: 50rem;
+ }
+ .text h1{
+    color: gold;
+    margin-bottom: 2rem;
+ }
+ .text p{
+    color: white;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    text-align: justify;
+ }
+ .text a{
+    color: #ffffff;
+    display: flex;
+    width: 13rem;
+    background-color: #000f84;
+    border-radius: 50px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    height: 2rem;
+    transition: 0.8s;
+ }
+ .text a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+ }
+/* content end */
+/* first section end */
+#standings{
+    overflow: hidden;
+    height: 100vh;
+    background:linear-gradient(135deg , #000102 , #2a5298);
+    padding: 7rem 2rem;
+}
+.hh h1{
+    color: rgb(221, 216, 216);
+    text-align: center;
+    margin-top: 20px;
+}
+.cards{
+    margin-top: 3rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.cards div{
+    background-color: #00000049;
+    width: 200px;
+    height: 200px;
+}
+
+.cards li{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: bisque;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.cards li img{
+    width:20px;
+}
+
+
+.cards div h1{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    border-bottom: solid 1px gold;
+}
+.cards .small{
+    font-size: 15px;
+}
+/* end section 2 */
+@media(max-width:950px){
+     header{
+        position: static;
+     }
+    .navbar{
+        display: none;
+    }
+    header img{
+        width: 20px;
+    }
+    .logo h1 , span{
+        font-size: 15px;
+    }
+     header{
+        padding: 0.5rem;
+     }
+     #home{
+        padding: 0 1rem;
+        overflow: scroll;
+     }
+      #home .content{
+        flex-direction: column-reverse;
+        gap: 8px;
+        padding: 100px 1rem;
+      }
+      #home video{
+        width: 230px;
+      }
+      .text h1{
+        font-size: 1rem;
+      }
+       .text p{
+        font-size: 0.7rem;
+       }
+       .text a{
+        width: 9rem;
+        font-size: 10px;
+       }
+       #standings{
+        overflow: scroll;
+        padding: 3rem 2rem;
+       }
+       .hh h1{
+        font-size: 20px;
+        margin-top: 1px;
+       }
+       .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .cards div{
+        width: 180px;
+        margin: auto;
+       }
+}
+@media(min-width:400px) and (max-width:700px){
+     #home video{
+        width: 25rem;
+     }
+     .text h1{
+        font-size: 20px;
+     }
+      #home .content{
+        padding: 150px 1rem;
+      }
+       .text p{
+        font-size: 12px;
+        margin-bottom: 2rem;
+       }
+       .cards{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .cards div{
+        margin: auto;
+       }
+}
