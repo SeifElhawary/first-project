@@ -188,14 +188,14 @@ header img{
   
      #home{
         padding: 0 4rem;
-        height:70vh;
+        height:100vh;
         overflow: hidden;
      }
       #home .content{
         flex-direction: column-reverse;
         gap: 8px;
         padding: 20px 1rem;
-        margin-top:50px;
+        margin:auto;
         height: 100%;
       }
       #home video{
