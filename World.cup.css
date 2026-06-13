@@ -195,7 +195,7 @@ header img{
       #home .content{
         flex-direction: column-reverse;
         gap: 8px;
-        padding: 20px 1rem;
+        padding: 0 1rem;
         margin:auto;
         height: 100%;
       }
