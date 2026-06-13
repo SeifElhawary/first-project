@@ -197,7 +197,8 @@ header img{
         flex-direction: column-reverse;
         gap: 8px;
         padding: 20px 1rem;
-          margin:auto;
+        margin:auto;
+        height: auto;
       }
       #home video{
         width: 350px;
